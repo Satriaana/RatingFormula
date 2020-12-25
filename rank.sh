@@ -4,9 +4,9 @@ echo 'Welcome to Satriaana Ranking System. Please provide the following informat
 #Asking for weekly cordinator name
 echo 'Hello, May i have your name?'
 
-read varname
+read cname
 #welcome by name
-
+echo 
 #week start date
 
 
