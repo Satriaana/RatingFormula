@@ -6,7 +6,7 @@ echo 'Hello, May i have your name?'
 
 read cname
 #welcome by name
-echo 
+echo 'Welcome $cname!'
 #week start date
 
 
