@@ -6,7 +6,7 @@ read -p 'Hello, May i have your name: ' cname
 #welcome by name
 echo 'Welcome $cname!'
 #week start date
-
+read -p 'Can I know the week start date? :'startdate
 
 #check blog team milestone creation (1,0)
 
