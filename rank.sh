@@ -15,29 +15,7 @@ read -p 'Has the blog team created a milestone, if Yes, Please enter 1. If not, 
 #ask for total no of issues in blog
 
 read -p 'How many issues can you see in the $milestone milestone? :'totalIssues
-if [ -z "$totalIssues" ]
 
-	then
-
-	  echo 'Inputs cannot be blank please try again'
-
-	  exit 0
-
-	fi
-
-	 
-#Now Validate if the user input is a number (Integer or Float)
-
-#If an input field not a number, display appropriate message and stop execution of script
-
-	if ! [[ "$totalIssues" =~ ^[+-]?[0-9]+\.?[0-9]*$ ]]
-	    then
-
-	        echo "Inputs must be a numbers"
-
-	    exit 0
-
-	fi
   
 #an issue responded within three days in blog 
 
