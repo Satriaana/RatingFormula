@@ -10,7 +10,7 @@ read -p 'Can I know the weekly milestone? :'milestone
 
 #check blog team milestone creation (1,0)
 
-
+read -p 'Has the blog team created a milestone, if Yes, Please enter 1. If not, enter 0 : ' milestone
 
 #ask for total no of issues in blog
 
@@ -40,6 +40,7 @@ if [ -z "$totalIssues" ]
 	fi
   
 #an issue responded within three days in blog 
+
 
 
 #ask for responded no of issues in blog
