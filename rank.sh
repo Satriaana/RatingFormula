@@ -6,12 +6,15 @@ read -p 'Hello, May i have your name: ' cname
 #welcome by name
 echo 'Welcome $cname!'
 #week start date
-read -p 'Can I know the week start date? :'startdate
+read -p 'Can I know the weekly milestone? :'milestone
 
 #check blog team milestone creation (1,0)
 
+
+
 #ask for total no of issues in blog
 
+read -p 'How many issues can you see in the $milestone milestone? :'totalIssues
 #an issue responded within three days in blog 
 
 #ask for responded no of issues in blog
