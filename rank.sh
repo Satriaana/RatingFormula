@@ -15,9 +15,16 @@ read -p 'Can I know the weekly milestone? :'milestone
 #ask for total no of issues in blog
 
 read -p 'How many issues can you see in the $milestone milestone? :'totalIssues
+
 #an issue responded within three days in blog 
+
 
 #ask for responded no of issues in blog
 
+read -p 'How many responded issues in the $milestone milestone? :'resIssues
+
+
 #ask for total complted tasks in blog
 
+
+read -p 'How many completed tasks can you see in the $milestone milestone? :'comTasks
