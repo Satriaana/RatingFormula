@@ -1,35 +1,6 @@
 #!/bin/bash
 #number validation function
 
-function noValidate{
-
-
-if [ -z "$1" ]
-
-	then
-
-	  echo 'Inputs cannot be blank please try again'
-
-	  exit 0
-
-	fi
-
-	 
-
-	#Now Validate if the user input is a number (Integer or Float)
-
-	#If an input field not a number, display appropriate message and stop execution of script
-
-	if ! [[ "$1" =~ ^[+-]?[0-9]+\.?[0-9]*$ ]]
-	    then
-
-	        echo "Inputs must be a numbers"
-
-	    exit 0
-
-	fi
-}
-
 #Welcome to bash ranking system by satriaana
 echo "Welcome to Satriaana Ranking System. Please provide the following information to calculate the rankings of the Teams!"
 #Asking for weekly cordinator name
