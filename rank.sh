@@ -1,6 +1,6 @@
 #!/bin/bash
 #Welcome to bash ranking system by satriaana
-
+echo 'Welcome to Satriaana Ranking System. Please provide the following information to calculate the rankings of the Teams!'
 #Asking for weekly cordinator name
 
 #welcome by name
