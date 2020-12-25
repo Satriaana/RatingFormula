@@ -50,7 +50,7 @@ noValidate $totalIssues
   
 #an issue responded within three days in blog 
 
-
+echo 'A Responded Issue is an issue which was responded within 3 Days of the issue creation date.'
 
 #ask for responded no of issues in blog
 
