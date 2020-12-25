@@ -2,7 +2,9 @@
 #Welcome to bash ranking system by satriaana
 echo 'Welcome to Satriaana Ranking System. Please provide the following information to calculate the rankings of the Teams!'
 #Asking for weekly cordinator name
+echo 'Hello, May i have your name?'
 
+read varname
 #welcome by name
 
 #week start date
